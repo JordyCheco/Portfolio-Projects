@@ -3,9 +3,9 @@ from PortfolioProject..CovidDeaths
 where continent is not null
 order by 3,4
 
---Select * 
---from PortfolioProject..CovidVaccinations
---order by 3,4
+Select * 
+from PortfolioProject..CovidVaccinations
+order by 3,4
 
 --  The Data that We will be focuing on 
 Select Location, Date, total_cases, new_cases, total_deaths, population
